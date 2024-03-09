@@ -1,0 +1,199 @@
+img {
+    width: 100%;
+}
+
+.logo-img {
+    width: 150px;
+}
+
+.logo-text>p {
+    font-size: 2em;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BCEB19;
+    box-shadow: #97C008;
+    padding-right: 10px;
+    color: bisque;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #009AB7;
+    color: aquamarine;
+    padding: 10px;
+    margin: 7px;
+}
+
+
+
+.item-1 {
+    background-image: url(img/pizza1.jpg);
+}
+
+.item-2 {
+    background-image: url(img/pizza2.jpg);
+}
+
+.item-3 {
+    background-image: url(img/pizza3.jpg);
+}
+
+.item-4 {
+    background-image: url(img/pizza4.jpg);
+}
+
+.item-5 {
+    background-image: url(img/pizza5.jpg);
+}
+
+.item-6 {
+    background-image: url(img/pizza6.jpg);
+}
+
+.item-7 {
+    background-image: url(img/pizza7.jpg);
+}
+
+.item-8 {
+    background-image: url(img/pizza8.jpg);
+}
+
+.item-9 {
+    background-image: url(img/pizza9.jpg);
+}
+
+.Pizza {
+    width: 165px;
+    height: 128px;
+    color: burlywood;
+    text-align: center;
+    padding-top: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.pizza-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    background-color: #00D3EF;
+    padding: 20px;
+    width: 200px;
+    flex-grow: 2;
+}
+
+main {
+    padding: 20px;
+    background-color: #97C008;
+    width: 400px;
+    flex-grow: 10;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle {
+    background-color: #BCEB19;
+    color: beige;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.big-img,
+.big-text {
+    width: 400px;
+    flex-grow: 1;
+    padding: 15px 30px;
+}
+
+.our-principles {
+    background-color: gray;
+}
+
+.big-img>img {
+    border-radius: 15px;
+}
+
+.option {
+    background-image: url(img/1.png);
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opt-1,
+.opt-2,
+.opt-3,
+.opt-4 {
+    background-color: gray;
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.opt-1 {
+    align-self: center;
+}
+
+.opt-2 {
+    align-self: flex-start;
+}
+
+.opt-3 {
+    align-self: flex-end;
+}
+
+.opt-4 {
+    align-self: center;
+}
+footer{
+    background-color: dimgrey;
+    color: aliceblue;
+    padding: 20px;
+}
+.socio{
+    font-size: 2em;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+}
+.face:hover{
+    color: blue;
+}
+.inst:hover{
+    color: orangered;
+}
+.tik:hover{
+ color: black;
+}
+.yt:hover{
+    color: red;
+}
+.ds:hover{
+    color: #009AB7;
+}
