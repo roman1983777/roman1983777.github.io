@@ -1,0 +1,50 @@
+img {
+    width: 100%;
+}
+
+
+
+.gg {
+    background-color: rgb(2, 4, 11);
+    text-align: center;
+    margin-top: 1rem 0;
+    font-weight: 900;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.row{
+    align-items: center;
+}
+.gel {
+    background-image: url(pexels-pixabay.jpg);
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    padding: 10px;
+    color: white;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.nav-link{
+    color: black;
+    font-size: larger;
+}
+.kosmonavts{
+    color: black;
+}
+.fip{
+    padding-top: 10px;
+}
+
+.tt{
+    padding: 0px;
+}
+.active{
+    text-decoration: underline;
+}
